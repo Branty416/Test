@@ -1,0 +1,258 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      }
+    },
+    "Count": 17,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 22,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,1": "添加记录",
+    "4,17": "更改",
+    "4,19": "删除"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "数据表1_详情页面",
+            "PassValues": [
+              {
+                "Source": "添加",
+                "TargetCell": {
+                  "SerializeProperty": "=数据表1_详情页面!B20"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 2
+          }
+        ],
+        "Text": "添加记录",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "数据表1",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "RowCount": 12,
+        "ColumnCount": 20,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_NewFashionListStyle2",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2
+      }
+    },
+    "4,2": {
+      "NameUsedInJavaScript": "文本",
+      "BindingInfo": {
+        "TableName": "数据表1",
+        "ColumnName": "文本",
+        "GUID": "8a506185-a61d-44b3-9db1-6c8aea5d7948"
+      }
+    },
+    "4,5": {
+      "NameUsedInJavaScript": "文本1",
+      "BindingInfo": {
+        "TableName": "数据表1",
+        "ColumnName": "文本1",
+        "GUID": "f6bef240-d396-49fe-957a-42d0d0d570c7"
+      }
+    },
+    "4,8": {
+      "NameUsedInJavaScript": "文本2",
+      "BindingInfo": {
+        "TableName": "数据表1",
+        "ColumnName": "文本2",
+        "GUID": "cf16bc3c-2821-4f86-a57d-31904ef8e317"
+      }
+    },
+    "4,11": {
+      "NameUsedInJavaScript": "文本3",
+      "BindingInfo": {
+        "TableName": "数据表1",
+        "ColumnName": "文本3",
+        "GUID": "d2d7c42d-d409-443e-b5bb-259df8eaf61f"
+      }
+    },
+    "4,14": {
+      "NameUsedInJavaScript": "文本4",
+      "BindingInfo": {
+        "TableName": "数据表1",
+        "ColumnName": "文本4",
+        "GUID": "8d037d8e-71a6-4f09-952a-b2d47e832dda"
+      }
+    },
+    "4,17": {
+      "NameUsedInJavaScript": "更改",
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "数据表1_详情页面",
+            "PassValues": [
+              {
+                "Source": "更改",
+                "TargetCell": {
+                  "SerializeProperty": "=数据表1_详情页面!B20"
+                }
+              }
+            ],
+            "LoadBindingDataOption": 1
+          }
+        ],
+        "Text": "更改"
+      }
+    },
+    "4,19": {
+      "NameUsedInJavaScript": "删除",
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.DeleteRecordCommand, ServerDesignerCommon",
+            "ConfirmText": "您确定要删除吗？"
+          }
+        ],
+        "Text": "删除"
+      }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "Forguncy.PageNavigateCellType, ServerDesignerCommon",
+        "PageingListviewName": "表格1",
+        "FirstImage": {
+          "Name": "Arrow/277_move_first_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/291_left_arrow_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "NextImage": {
+          "Name": "Arrow/292_move_next_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "LastImage": {
+          "Name": "Arrow/278_move_last_3.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true
+      },
+      {
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,17": 0,
+      "4,19": 0,
+      "15,1": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,1,1,3",
+    "5,1,10,20",
+    "4,2,1,3",
+    "3,2,1,3",
+    "4,5,1,3",
+    "3,5,1,3",
+    "4,8,1,3",
+    "3,8,1,3",
+    "4,11,1,3",
+    "3,11,1,3",
+    "4,14,1,3",
+    "3,14,1,3",
+    "4,17,1,2",
+    "3,17,1,2",
+    "4,19,1,2",
+    "3,19,1,2",
+    "15,1,1,20"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//CA0aeFc6Dpcck6OpAdu2CKxrC5kVNqgkeAAaEp35lug/koBMhw12ExpBJ4mxuMOqnuJ+MBBQ4hETW6PIVHuM+rSvW8IG0EG/OpikORKAKBXxv/1aloueUmPlBBZY7agQ0EH4i+Q7/dEsnYlWN6k251/xbVDKPWqMLB2+j98NVVfJ1aZ1r04/1aUuwslXnHPkR6jBy9U4doxW41LggHDSTljty3GCbYq7sO+gD4/td7PQQSREnzMH4c0gH12rOWcmRWCOik557oUwrFgox9VVUsTIAgrKAUM5QPZ0fWYGsZkSIioccx16Bil28mKPBnown0cI7y2IaFkd3RHbShLLQm8mMao0sszfuySMQqP3kR3A+9uYSq/Yr4bCDr5jHN5zNq4vkHRarkHc6WU3rYDb1qb+fRQnwuujaC7WE4NNKC5i1vlsQlR6Na4bo32o3XB37dSBNAo5rwngff8EtDydhMBuqwPMqMFTzMTY0wJLkgWwsFtN9QrbG45K12cs4znoTF5gdQf/uLb88OeTahx6BbkwHhdxwxo6k8qHYiM3p0n1ZsdUgnA46qIvV1Hbjt8RQpRUpBdBOJK0Igo6vU04d+W5I8ZprGSdgJclnogn8ubaA0/aouSvQyefFI1qA4Nae5YdzUMU57pYjEh4I+8HUav1pLxfxXtITqLTgXtkF2GJgOVrr4W627eLOsrQPxrkKcvIJnY3rl3RNsKmp5SHt66skW1+wvFeqmtVEpJE4q9g+TrlSQligx68LauNqKueFGwPd2scT5joRiozK4p8NgVxikepKi2mz6hgRGFEbfJTM91RLk+fL3rf0szA1DXeHOX9ZyRSc1Sou5vqMY2oz2nWX+XrFS4RrPdXIWVPrKScaHmESAWI9o6oJsxQz0ZsqfkgNoZ8GelA57fAwuDTSQ==|920

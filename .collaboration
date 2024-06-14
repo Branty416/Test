@@ -177,33 +177,15 @@
   },
   {
     "ModuleName": "Table/数据表1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\BrantyYan",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-14T18:09:26.3862861+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
     "ModuleName": "PCPage/数据表1_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\BrantyYan",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-14T18:09:38.8851342+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/数据表1_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\BrantyYan",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2024-06-14T18:09:38.8851633+08:00",
     "ModuleType": 1
   }
 ]
